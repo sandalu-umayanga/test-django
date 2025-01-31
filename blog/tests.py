@@ -12,7 +12,7 @@ class ModelTesting(TestCase):
         self.assertEqual(str(d), 'django')
 
     def test_addition(self):
-        self.assertEqual(1 + 1, 2)
+        self.assertEqual(1 + 1, 3)
         self.assertEqual(2 + 2, 4)
         self.assertEqual(3 + 3, 6)
 
